@@ -10,4 +10,9 @@
     <string name="cd_events">Events</string>
     <string name="cd_clubs">Clubs</string>
     <string name="cd_support">Support</string>
+
+    <!-- Part F: placeholder text shown in DetailActivity before Java fills it in -->
+    <string name="detail_image_placeholder">Topic image</string>
+    <string name="detail_title_placeholder">Detail Title</string>
+    <string name="detail_content_placeholder">Detail content goes here. This text is replaced at run time with the content stored in arrays.xml.</string>
 </resources>
