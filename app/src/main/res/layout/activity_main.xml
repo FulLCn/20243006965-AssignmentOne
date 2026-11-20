@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-    Part B: portrait layout of the CampusLife main screen.
-    A banner on top and the four topic buttons in a 2 x 2 grid below it.
+    Part C: portrait layout of the CampusLife main screen.
+    A green banner on top and the four topic buttons in a 2 x 2 grid below it.
     Everything is sized with weights, so the layout stays responsive on any screen;
     the only fixed size is the banner title at 40sp, which the specification allows.
 -->
@@ -17,8 +17,10 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
+        android:background="@color/green"
         android:gravity="center"
         android:text="@string/banner_title"
+        android:textColor="@color/white"
         android:textSize="40sp"
         android:textStyle="bold" />
 
@@ -41,7 +43,8 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:layout_margin="8dp"
-                android:background="?attr/selectableItemBackgroundBorderless"
+                android:background="@drawable/btn_selector"
+                android:backgroundTint="@null"
                 android:contentDescription="@string/cd_facilities"
                 android:padding="24dp"
                 android:scaleType="fitCenter"
@@ -53,7 +56,8 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:layout_margin="8dp"
-                android:background="?attr/selectableItemBackgroundBorderless"
+                android:background="@drawable/btn_selector"
+                android:backgroundTint="@null"
                 android:contentDescription="@string/cd_events"
                 android:padding="24dp"
                 android:scaleType="fitCenter"
@@ -72,7 +76,8 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:layout_margin="8dp"
-                android:background="?attr/selectableItemBackgroundBorderless"
+                android:background="@drawable/btn_selector"
+                android:backgroundTint="@null"
                 android:contentDescription="@string/cd_clubs"
                 android:padding="24dp"
                 android:scaleType="fitCenter"
@@ -84,7 +89,8 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:layout_margin="8dp"
-                android:background="?attr/selectableItemBackgroundBorderless"
+                android:background="@drawable/btn_selector"
+                android:backgroundTint="@null"
                 android:contentDescription="@string/cd_support"
                 android:padding="24dp"
                 android:scaleType="fitCenter"
