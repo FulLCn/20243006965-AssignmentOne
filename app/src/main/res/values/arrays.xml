@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Part H: dummy data for DetailActivity.
+    The three arrays are parallel: index i of every array describes the same topic,
+    and that index is the unique identifier passed through the Intent.
+-->
+<resources>
+    <string-array name="detail_titles">
+        <item>Facilities</item>
+        <item>Events</item>
+        <item>Clubs</item>
+        <item>Support</item>
+    </string-array>
+
+    <string-array name="detail_contents">
+        <item>The Waikato campus has everything you need between lectures. Te Puna M&#257;tauranga o Waikato, the Library, offers quiet study rooms, bookable group rooms and subject librarians. The Recreation Centre runs a gym, squash courts and fitness classes, while the campus shops, cafes and ATMs are all a short walk from the central paths.</item>
+        <item>CampusLife keeps you up to date with what is happening on campus. Orientation week, club days, guest lectures, careers fairs and the graduation parade are all listed in the events calendar. Most events are free for enrolled students, and a few require registration through the university website.</item>
+        <item>Joining a club is one of the quickest ways to meet people at Waikato. There are more than one hundred student clubs covering sport, culture, academic interests and hobbies. Clubs are run by students and supported by the Waikato student union, and new members are welcome at any time of the year.</item>
+        <item>A range of support services is available if you need a hand. Student Health and Counselling take appointments on campus, the Student Learning team runs workshops on writing and study skills, and Disability Support arranges reasonable accommodations. International students can also get visa and orientation advice from the International Office.</item>
+    </string-array>
+
+    <string-array name="detail_images">
+        <item>ic_facilities</item>
+        <item>ic_events</item>
+        <item>ic_clubs</item>
+        <item>ic_support</item>
+    </string-array>
+</resources>
