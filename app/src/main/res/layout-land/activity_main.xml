@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Part D: landscape layout of the CampusLife main screen.
+    Identical to the portrait file except that the lower half is a single row,
+    so the four buttons sit next to each other instead of in a 2 x 2 grid.
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- Banner -->
+    <TextView
+        android:id="@+id/tvBanner"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/green"
+        android:gravity="center"
+        android:text="@string/banner_title"
+        android:textColor="@color/white"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <!-- Lower half: a single row holding the four buttons -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/btnFacilities"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="8dp"
+            android:background="@drawable/btn_selector"
+            android:backgroundTint="@null"
+            android:contentDescription="@string/cd_facilities"
+            android:padding="24dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_facilities" />
+
+        <ImageButton
+            android:id="@+id/btnEvents"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="8dp"
+            android:background="@drawable/btn_selector"
+            android:backgroundTint="@null"
+            android:contentDescription="@string/cd_events"
+            android:padding="24dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_events" />
+
+        <ImageButton
+            android:id="@+id/btnClubs"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="8dp"
+            android:background="@drawable/btn_selector"
+            android:backgroundTint="@null"
+            android:contentDescription="@string/cd_clubs"
+            android:padding="24dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_clubs" />
+
+        <ImageButton
+            android:id="@+id/btnSupport"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="8dp"
+            android:background="@drawable/btn_selector"
+            android:backgroundTint="@null"
+            android:contentDescription="@string/cd_support"
+            android:padding="24dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_support" />
+    </LinearLayout>
+</LinearLayout>
