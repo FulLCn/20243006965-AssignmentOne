@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">20243006965-AssignmentOne</string>
+
+    <!-- Part B: banner title shown on the main screen -->
+    <string name="banner_title">CampusLife</string>
+
+    <!-- Part B: accessibility descriptions for the four image buttons -->
+    <string name="cd_facilities">Facilities</string>
+    <string name="cd_events">Events</string>
+    <string name="cd_clubs">Clubs</string>
+    <string name="cd_support">Support</string>
 </resources>
